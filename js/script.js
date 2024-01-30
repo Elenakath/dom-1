@@ -7,7 +7,7 @@ var cat = document.querySelector(".cat");
 
 button.addEventListener("click", function () {
     //button.innerText = "It's working";
-    cat.classList.add("show");
-
-});
-
+     if (cat.classList.contains("show") );
+            console.log("Yes");
+        })
+    
